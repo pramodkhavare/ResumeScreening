@@ -68,9 +68,7 @@ def main():
 
         category_name = category_mapping.get(prediction_id, "Unknown")
 
-        st.write("Predicted Category:", category_name)
-
-
+        st.write("Resume Category:", category_name)
 
 # python main
 if __name__ == "__main__":
